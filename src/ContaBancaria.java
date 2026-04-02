@@ -1,12 +1,12 @@
 public abstract class ContaBancaria implements Conta{
-        double saldo;
+    double saldo;
 
     public ContaBancaria(double saldo) {
         this.saldo = saldo;
     }
 
     @Override
-    public void consultarSalo(){
+    public void consultarSaldo(){
         System.out.println("Saldo atual: R$ " + saldo);
     }
 
